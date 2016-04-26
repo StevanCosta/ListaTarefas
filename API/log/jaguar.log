@@ -1,0 +1,123 @@
+^2015-10-28 01:57:36^UPDATE usuario_maisfrete SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMTIiLCJkc19lbWFpbCI6ImV2ZXJ0b25AYXR1YS5jb20uYnIiLCJubV91c3VhcmlvIjoiXHUwMGM5dmVydG9uIFIuIEF1bGVyIn0.H6-tOkkxGJ3SomlOzmEC0PXg1JTvy9pAKbFC4KfPnhY', dt_ultimo_acesso = '2015-10-28 01:57:35' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:58:14^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:58:13' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:58:25^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:58:24' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:58:29^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:58:28' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:58:45^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:58:43' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:59:09^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:59:09' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:59:30^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:59:29' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:59:43^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:59:41' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 01:59:44^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 01:59:42' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 02:03:06^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 02:03:05' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 02:06:29^UPDATE usuario_maisfrete SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMTIiLCJkc19lbWFpbCI6ImV2ZXJ0b25AYXR1YS5jb20uYnIiLCJubV91c3VhcmlvIjoiXHUwMGM5dmVydG9uIFIuIEF1bGVyIn0.s2mXo_mdECyVgJuU0TJF-I5MslyboGJKOo4mkQeKRHE', dt_ultimo_acesso = '2015-10-28 02:06:28' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 02:12:15^UPDATE usuario_maisfrete SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMTIiLCJkc19lbWFpbCI6ImV2ZXJ0b25AYXR1YS5jb20uYnIiLCJubV91c3VhcmlvIjoiXHUwMGM5dmVydG9uIFIuIEF1bGVyIn0.3mqCj-IOEANJCR05C1GGqWis8OS0trAb8vJYw5-ETTQ', dt_ultimo_acesso = '2015-10-28 02:12:14' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-10-28 02:12:29^UPDATE usuario_maisfrete SET dt_ultimo_acesso = '2015-10-28 02:12:28' WHERE cd_usuario = '12' ^1^api.php^servicosmaisfrete 
+^2015-11-07 18:30:32^UPDATE usuario SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMSIsImRzX2VtYWlsIjoic3RldmFuZGFuaWVsbGljb3N0YUBnbWFpbC5jb20iLCJubV91c3VhcmlvIjoic3RldmFuIn0.j6ymYwf5rQfOq7hMDkenegDSalClm_sTud8jY6ajZ-o', dt_ultimo_acesso = '2015-11-07 18:30:32' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:32:48^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:32:48' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:49:52^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:49:52' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:50:43^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:50:43' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:51:22^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:51:22' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:52:23^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:52:23' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:52:57^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:52:57' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:54:31^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:54:31' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 18:56:51^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 18:56:51' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:04:32^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:04:32' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:07:28^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:07:28' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:12:20^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:12:20' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:15:36^UPDATE usuario SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMSIsImRzX2VtYWlsIjoic3RldmFuZGFuaWVsbGljb3N0YUBnbWFpbC5jb20iLCJubV91c3VhcmlvIjoiU3RldmFuIENvc3RhIn0.AQ3T67DEtKSqq6ftA5d722F1QCdwZ6WmUbMQp18sBq4', dt_ultimo_acesso = '2015-11-07 19:15:36' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:17:13^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:17:13' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:17:23^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:17:23' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:18:54^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:18:54' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:19:15^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:19:14' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:19:29^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:19:29' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:19:49^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:19:49' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:26:13^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:26:13' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 19:56:10^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 19:56:10' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:26:22^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:26:21' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:28:25^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:28:25' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:29:06^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:29:06' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:30:36^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:30:36' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:31:19^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:31:19' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:32:56^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:32:56' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:33:24^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:33:24' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:34:23^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:34:23' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:38:20^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:38:20' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:38:48^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:38:48' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:40:15^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:40:15' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:40:16^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:40:16' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:46:01^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:46:01' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:47:48^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:47:48' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:48:27^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:48:27' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:51:51^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:51:51' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:56:42^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:56:42' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 20:59:46^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 20:59:46' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:10:42^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:10:42' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:14:57^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:14:57' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:15:53^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:15:52' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:19:40^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:19:40' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:22:11^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:22:11' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:27:07^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:27:07' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:27:35^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:27:35' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:28:22^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:28:21' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:29:20^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:29:20' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-07 21:31:42^UPDATE usuario SET dt_ultimo_acesso = '2015-11-07 21:31:42' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-09 23:30:24^UPDATE usuario SET dt_ultimo_acesso = '2015-11-09 23:30:24' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-09 23:35:56^UPDATE usuario SET dt_ultimo_acesso = '2015-11-09 23:35:56' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-10 00:31:08^UPDATE usuario SET dt_ultimo_acesso = '2015-11-10 00:31:07' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-10 00:31:23^UPDATE usuario SET dt_ultimo_acesso = '2015-11-10 00:31:23' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-10 00:41:48^UPDATE usuario SET dt_ultimo_acesso = '2015-11-10 00:41:48' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-10 01:40:45^INSERT INTO usuario (cd_usuario, ds_email, ds_senha, nm_usuario, nr_cpf, nr_telefone_celular, nr_telefone_comercial, nr_telefone_fixo) VALUES ('2', 'ste', '202cb962ac59075b964b07152d234b70', 'ste', '02637477007', '2343', '2', '42342') ^0^api.php^CarroNaMao 
+^2015-11-10 01:40:45^UPDATE usuario SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiMiIsImRzX2VtYWlsIjoic3RlIiwibm1fdXN1YXJpbyI6InN0ZSJ9.GiluOQDm5FAiGJbPm-P9ljfaVMM_d4MTNKNdsawzOZA', dt_ultimo_acesso = '2015-11-10 01:40:45' WHERE cd_usuario = '2' ^1^api.php^CarroNaMao 
+^2015-11-10 02:12:09^UPDATE usuario SET dt_ultimo_acesso = '2015-11-10 02:12:09' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-10 02:12:18^UPDATE usuario SET dt_ultimo_acesso = '2015-11-10 02:12:18' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2015-11-30 23:45:47^UPDATE usuario SET dt_ultimo_acesso = '2015-11-30 23:45:47' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2016-04-09 15:46:48^INSERT INTO usuario (cd_usuario, ds_email, ds_senha, nm_usuario, nr_cpf) VALUES ('3', 'rodrigopiovesan@gmail.com', '202cb962ac59075b964b07152d234b70', 'Rodrigo Piovesan', '00339061065') ^0^api.php^CarroNaMao 
+^2016-04-09 15:47:03^INSERT INTO usuario (cd_usuario, ds_email, ds_senha, nm_usuario, nr_cpf, nr_telefone_celular) VALUES ('4', 'rodrigopiovesan@gmail.com', '202cb962ac59075b964b07152d234b70', 'Rodrigo Piovesan', '00339061065', '5499022203') ^0^api.php^CarroNaMao 
+^2016-04-09 15:47:03^UPDATE usuario SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiNCIsImRzX2VtYWlsIjoicm9kcmlnb3Bpb3Zlc2FuQGdtYWlsLmNvbSIsIm5tX3VzdWFyaW8iOiJSb2RyaWdvIFBpb3Zlc2FuIn0.ooS-Q64MsW_aGAC-t5sx3beZuaml9KtNxJjXOVH7Oo0', dt_ultimo_acesso = '2016-04-09 15:47:03' WHERE cd_usuario = '4' ^1^api.php^CarroNaMao 
+^2016-04-09 15:52:50^UPDATE usuario SET dt_ultimo_acesso = '2016-04-09 15:52:50' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2016-04-09 15:52:55^UPDATE usuario SET dt_ultimo_acesso = '2016-04-09 15:52:55' WHERE cd_usuario = '1' ^1^api.php^CarroNaMao 
+^2016-04-09 15:53:51^UPDATE usuario SET dt_ultimo_acesso = '2016-04-09 15:53:51' WHERE cd_usuario = '4' ^1^api.php^CarroNaMao 
+^2016-04-09 15:55:04^UPDATE usuario SET dt_ultimo_acesso = '2016-04-09 15:55:04' WHERE cd_usuario = '4' ^1^api.php^CarroNaMao 
+^2016-04-09 16:08:24^UPDATE usuario SET dt_ultimo_acesso = '2016-04-09 16:08:24' WHERE cd_usuario = '4' ^1^api.php^CarroNaMao 
+^2016-04-10 22:00:33^INSERT INTO usuario (cd_usuario, ds_email, ds_senha, nm_usuario, nr_cpf, nr_telefone_celular) VALUES ('5', 'stevandaniellicosta@gmail.com', '4cc43d8b905ed355eaa818b23bcf0aa6', 'Stevan Danielli Costa', '02091096024', '05499022203') ^0^api.php^CarroNaMao 
+^2016-04-10 22:00:33^UPDATE usuario SET ds_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjZF91c3VhcmlvIjoiNSIsImRzX2VtYWlsIjoic3RldmFuZGFuaWVsbGljb3N0YUBnbWFpbC5jb20iLCJubV91c3VhcmlvIjoiU3RldmFuIERhbmllbGxpIENvc3RhIn0.qy6k1ChRYDlQpMCUIXaSS5Dyd6MlPjOdqK3qo0NAR2w', dt_ultimo_acesso = '2016-04-10 22:00:33' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:03:54^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:03:54' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:04:32^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:04:32' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:04:49^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:04:49' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:05:32^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:05:32' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:05:51^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:05:51' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:07:57^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:07:57' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:08:46^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:08:46' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:09:30^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:09:30' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-10 22:12:16^UPDATE usuario SET dt_ultimo_acesso = '2016-04-10 22:12:16' WHERE cd_usuario = '5' ^1^api.php^CarroNaMao 
+^2016-04-24 18:59:30^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tste1', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:00:13^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:01:28^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:01:53^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:02:09^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:02:40^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:03:38^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:03:50^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:04:30^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:04:39^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:05:23^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:06:02^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tese', NULL) ^0^api.php^ListaTarefas 
+^2016-04-24 19:07:29^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste 2', '0') ^0^api.php^ListaTarefas 
+^2016-04-24 19:08:22^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste 323', '0') ^0^api.php^ListaTarefas 
+^2016-04-24 19:12:42^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tesfdsd', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:04:21^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tessss', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:07:45^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tet', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:08:06^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:08:15^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('trssds', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:08:45^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('t', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:09:17^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('tes', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:09:35^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('rfdsfs', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:09:57^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('texfds', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:20:55^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 1', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:30:41^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 2', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:31:46^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 3', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:32:15^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 4', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:41:13^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 5', '0') ^0^api.php^ListaTarefas 
+^2016-04-26 01:41:21^UPDATE tarefas SET ds_tarefa = 'Tarefa 1 - Editada', id_finalizada = '0' WHERE cd_tarefa = '25' ^1^api.php^ListaTarefas 
+^2016-04-26 01:42:17^UPDATE tarefas SET ds_tarefa = 'Tarefa 1 - Editada', id_finalizada = '0' WHERE cd_tarefa = '25' ^1^api.php^ListaTarefas 
+^2016-04-26 01:45:06^DELETE FROM tarefas WHERE cd_tarefa = '25' ^2^api.php^ListaTarefas 
+^2016-04-26 01:45:26^DELETE FROM tarefas WHERE cd_tarefa = '28' ^2^api.php^ListaTarefas 

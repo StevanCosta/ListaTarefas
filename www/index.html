@@ -14,8 +14,8 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
     <!-- your app's js -->
-    <script src="js/TarefasMod.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script>    
+    <script src="js/APIConexaoBD.js"></script>
   </head>
   <body ng-app="starter">
     <ion-pane ng-controller="MainCtrl">
@@ -23,6 +23,26 @@
         <button class="button" ng-click="mostrarBotaoDeleta()"><i class="ion-ios-minus-outline"></i></button>
         <h1 class="title">Lista de Tarefas</h1>
       </ion-header-bar>
+
+      <ion-content>
+        <button class="button button-block button-positive" ng-click="adicionarItem()">Adicionar</button>
+        <ion-list show-delete="mostrarBotaoDel">
+          <ion-item ng-repeat="item in lista track by $index" ng-hide="esconderItem(item)">
+            <div class="row">
+              <div class="col col-90">
+                  {{item.ds_tarefa}}
+                  <ion-delete-button class="ion-minus-circled" ng-click="removerItem(item)"></ion-delete-button>
+                  <ion-option-button class="button-positive" ng-click="alterarItem(item)">Editar</ion-option-button>
+              </div>
+              <div class="col col-10">
+                  <button class="button button-small button-calm button-outline" ng-click=tarefaMarcada(item)>
+                    <i class="ion-checkmark" ng-show="item.id_finalizada"></i>
+                  </button>
+              </div>
+            </div>
+          </ion-item>
+        </ion-list>
+      </ion-content>
 
       <ion-footer-bar class="bar-calm">
         <div class="row">
@@ -39,24 +59,6 @@
           </div>
         </div>
       </ion-footer-bar>
-
-      <ion-content>
-        <ion-list show-delete="mostrarBotaoDel">
-          <ion-item ng-repeat="item in lista track by $index" ng-hide="esconderItem(item)">
-            <div class="row">
-              <div class="col col-90">
-                  {{item.nome}}
-                  <ion-delete-button class="ion-minus-circled" ng-click="removerItem(item)"></ion-delete-button>
-              </div>
-              <div class="col col-10">
-                  <button class="button button-small button-calm button-outline" ng-click=tarefaMarcada(item)>
-                    <i class="ion-checkmark" ng-show="item.finalizada"></i>
-                  </button>
-              </div>
-            </div>
-          </ion-item>
-        </ion-list>
-      </ion-content>
     </ion-pane>
   </body>
 </html>
