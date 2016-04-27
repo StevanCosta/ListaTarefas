@@ -25,21 +25,36 @@ app.controller('MainCtrl', function($scope, $ionicPopup, $ionicListDelegate, $ht
   $scope.mostrarFinalizadas = false;
   $scope.mostrarBotaoDel = false;
 
+  var showAlert = function(msg) {
+    $ionicPopup.alert({
+      title: "Informação ao usuário",
+      template: msg
+    });
+  };
+
+  var testaRetornoAPI = function (retorno) {
+    if (retorno.id_status == 0)
+      showAlert(retorno.ds_retorno);
+    else
+      return retorno;
+  };
+
   // Carrega a lista de tarefas
   var carregarTarefas = function() {
-    fil = {campo: 'cd_tarefa', valor: 27};
-    parametros = {classe: 'Tarefa', metodo: 'buscarTarefas', filtros: fil};
-    conn.buscar(parametros).success(function(data) {
-      console.log(data);
+    filtro = {};
+    param = {classe: 'Tarefa', metodo: 'buscarTarefas', parametros: filtro};
+    conn.buscarDados(param).success(function(data) {
+      dados = testaRetornoAPI(data);
+
       $scope.lista = [];
-      if (data != '')
-        $scope.lista = data;
+      if (dados != null)
+        $scope.lista = dados;
     });
   }
 
   carregarTarefas();
 
-  function abrePopup(item) {
+  var abrePopup = function (item) {
     $scope.data = {};
     $scope.data.novaTarefa = item.ds_tarefa;
 
@@ -51,27 +66,21 @@ app.controller('MainCtrl', function($scope, $ionicPopup, $ionicListDelegate, $ht
         {text: "Salvar",
         onTap: function(e) {
             item.ds_tarefa = $scope.data.novaTarefa;
-            item.id_finalizada = false;
+            item.id_finalizada = 0;
 
             if (item.cd_tarefa == null)
             {
-              conn.adicionarTarefas(item).success(function(data) {
-                $ionicPopup.alert({
-                  title: "Informação ao usuário",
-                  template: data
-                });
-
+              param = {classe: 'Tarefa', metodo: 'adicionarTarefa', parametros: item};
+              conn.enviarDados(param).success(function(data) {
+                showAlert(data);
                 carregarTarefas();
               });
             }
             else
             {
-              conn.atualizarTarefa(item).success(function(data) {
-                $ionicPopup.alert({
-                  title: "Informação ao usuário",
-                  template: data
-                });
-
+              param = {classe: 'Tarefa', metodo: 'atualizarTarefa', parametros: item};
+              conn.enviarDados(param).success(function(data) {
+                showAlert(data);
                 carregarTarefas();
               });
             }
@@ -101,12 +110,9 @@ app.controller('MainCtrl', function($scope, $ionicPopup, $ionicListDelegate, $ht
   };
 
   $scope.removerItem = function (item) {
-    conn.removerTarefa(item).success(function(data) {
-      $ionicPopup.alert({
-        title: "Informação ao usuário",
-        template: data
-      });
-
+    param = {classe: 'Tarefa', metodo: 'excluirTarefa', parametros: item};
+    conn.enviarDados(param).success(function(data) {
+      showAlert(data);
       carregarTarefas();
     });
 

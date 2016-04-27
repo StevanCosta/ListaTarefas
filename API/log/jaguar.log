@@ -121,3 +121,12 @@
 ^2016-04-26 01:42:17^UPDATE tarefas SET ds_tarefa = 'Tarefa 1 - Editada', id_finalizada = '0' WHERE cd_tarefa = '25' ^1^api.php^ListaTarefas 
 ^2016-04-26 01:45:06^DELETE FROM tarefas WHERE cd_tarefa = '25' ^2^api.php^ListaTarefas 
 ^2016-04-26 01:45:26^DELETE FROM tarefas WHERE cd_tarefa = '28' ^2^api.php^ListaTarefas 
+^2016-04-27 03:14:57^INSERT INTO tarefa (ds_tarefa, id_finalizada) VALUES ('Tarefa 6', '0') ^0^api.php^ListaTarefas 
+^2016-04-27 03:15:11^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 6', '0') ^0^api.php^ListaTarefas 
+^2016-04-27 03:15:42^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 7', '0') ^0^api.php^ListaTarefas 
+^2016-04-27 03:18:38^UPDATE tarefas SET ds_tarefa = 'Tarefa 2 - Editado', id_finalizada = '0' WHERE cd_tarefa = '26' ^1^api.php^ListaTarefas 
+^2016-04-27 03:18:53^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '0' WHERE cd_tarefa = '26' ^1^api.php^ListaTarefas 
+^2016-04-27 03:20:22^DELETE FROM  WHERE cd_tarefa = '26' ^2^api.php^ListaTarefas 
+^2016-04-27 03:20:37^DELETE FROM tarefas WHERE cd_tarefa = '26' ^2^api.php^ListaTarefas 
+^2016-04-27 03:20:55^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 2  - Inserida Novamente', '0') ^0^api.php^ListaTarefas 
+^2016-04-27 03:21:05^UPDATE tarefas SET ds_tarefa = 'Tarefa 2  - Editado Novamente', id_finalizada = '0' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 

@@ -23,76 +23,48 @@
     exit(0);
   }
 
-	//echo "Classe: $classe - Metodo: $metodo - Filtros: $filtros";
+	/**
+	 * Validação se foram passados todos os parametros corretamente.
+	 * OBRIGATÓRIO passar a Classe e o Método.
+	 */
+	try {
+		# Verifica o tipo de requisição.
+		$requisicao = $_REQUEST["ds_requisicao"];
+		if (!$requisicao)
+			throw new Exception("ERRO: Tipo de requisicao nao informada.");
 
-	$param = json_decode($filtros);
-	$obj = new $classe();
-	echo $obj->$metodo($param);
-
-	/*
-
-	if (strlen($acao))
-	{
-		if ($acao == "I")
+		if ($requisicao == "POST")
 		{
 			$postdata = file_get_contents("php://input");
 			$request = json_decode($postdata);
 
-			$dados = $request->dados;
-
-			if (!$dados->id_finalizada)
-			  $id_finalizada = 0;
-			else
-				$id_finalizada = 1;
-
-			$values = array("ds_tarefa"     => $dados->ds_tarefa,
-		                  "id_finalizada" => $id_finalizada);
-
-			if ($conn->Insert($tabela, $values))
-				echo "Dados inseridos.";
-			else
-				echo "Erro ao inserir os dados." . $conn->GetTextualError();
+			$classe = $request->classe;
+			$metodo = $request->metodo;
+			$param = $request->parametros;
 		}
 
-		if ($acao == "A")
-		{
-			$postdata = file_get_contents("php://input");
-			$request = json_decode($postdata);
+		if ($requisicao == "GET")
+			$param = json_decode($parametros);
 
-			$dados = $request->dados;
+		# Verifica se a classe foi informada.
+		if (!$classe)
+			throw new Exception("ERRO: Classe nao informada.");
 
-			if (!$dados->id_finalizada)
-			  $id_finalizada = 0;
-			else
-				$id_finalizada = 1;
+		# Verifica se o método foi informada.
+		if (!$metodo)
+			throw new Exception("ERRO: Metodo nao informado.");
 
-			$where = array("cd_tarefa" => $dados->cd_tarefa);
-
-			$values = array("ds_tarefa"     => $dados->ds_tarefa,
-		                  "id_finalizada" => $id_finalizada);
-
-			if ($conn->Update($tabela, $values, $where))
-				echo "Dados alterados.";
-			else
-				echo "Erro ao alterar os dados." . $conn->GetTextualError();
-		}
-
-		if ($acao == "E")
-		{
-			$postdata = file_get_contents("php://input");
-			$request = json_decode($postdata);
-
-			$dados = $request->dados;
-
-			$where = array("cd_tarefa" => $dados->cd_tarefa);
-			if ($conn->Delete($tabela, $where))
-				echo "Tarefa excluida.";
-			else
-				echo "Erro ao excluir a tarefa." . $conn->GetTextualError();
-		}
+		# Cria o objeto da classe passada por parametro e chama o método informado, passando os parametros.
+		$obj = new $classe();
+		echo $obj->$metodo($param);
 	}
-	else
-		echo "AÇÃO não informada.";
-*/
+	catch (Exception $e)
+	{
+		$retorno = new stdClass();
+		$retorno->id_status  = "0";
+		$retorno->ds_retorno    = utf8_encode($e->getMessage());
+		echo json_encode($retorno);
+	}
+
 
 ?>
