@@ -62,7 +62,7 @@
 	{
 		$retorno = new stdClass();
 		$retorno->id_status  = "0";
-		$retorno->ds_retorno    = utf8_encode($e->getMessage());
+		$retorno->ds_retorno = utf8_encode($e->getMessage());
 		echo json_encode($retorno);
 	}
 

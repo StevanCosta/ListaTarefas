@@ -4,33 +4,78 @@
    */
   class Tarefa
   {
-    function retornaMensagem()
+    // Função contrutora, instancia a classe de retorno.
+    function __construct()
     {
-      return "Classe Tarefa criada.";
+       $retorno = new stdClass();
     }
 
     function buscarTarefas($parametros)
     {
       global $conn;
 
-      $campo = $parametros->campo;
-      $valor = $parametros->valor;
+      $ordem = $parametros->ordem;
+
+      if ($ordem)
+        $ordem = "ORDER BY $ordem";
 
       $sql = "SELECT cd_tarefa, ds_tarefa, id_finalizada
-  							FROM tarefas
-               WHERE true ";
+  							FROM tarefas               
+              $ordem ";
 
-      if (strlen($campo))
-        $sql .= "AND $campo = $valor";
-
-  		$sql .= "ORDER BY cd_tarefa ";
   		if ($rs = $conn->Select($sql))
   		{
   			if ($rs->GetRowCount())
-  				return json_encode($rs->getArray(true));
+        {
+  				$retorno->id_status  = 1;
+          $retorno->ds_retorno = $rs->getArray(true);
+        }
   		}
   		else
-  			return "Erro ao consultar os dados. " . $conn->GetTextualError();
+      {
+        $retorno->id_status  = 0;
+        $retorno->ds_retorno = "Erro ao consultar os dados.";
+        $retorno->ds_log     = $conn->GetTextualError();
+      }
+
+      return json_encode($retorno);
+    }
+
+    function buscarTarefasPorCodigo($parametros)
+    {
+      global $conn;
+
+      $valor = implode(",", $parametros->valor);
+      $ordem = $parametros->ordem;
+
+      echo $valor; return;
+      if (!$valor)
+        return "Informe o campo do valor.";
+
+      if ($ordem)
+        $ordem = "ORDER BY $ordem";
+
+      $sql = "SELECT cd_tarefa, ds_tarefa, id_finalizada
+  							FROM tarefas
+               WHERE cd_tarefa IN ($valor)
+              $ordem ";
+
+  		if ($rs = $conn->Select($sql))
+  		{
+  			if ($rs->GetRowCount())
+        {
+  				$retorno->id_status  = 1;
+          $retorno->ds_retorno = $rs->getArray(true);
+        }
+  		}
+  		else
+      {
+        $retorno->id_status  = 0;
+        $retorno->ds_retorno = "Erro ao consultar os dados.";
+        $retorno->ds_log     = $conn->GetTextualError();
+      }
+
+      return json_encode($retorno);
     }
 
     function adicionarTarefa($parametros)
@@ -44,9 +89,18 @@
 		                  "id_finalizada" => $id_finalizada);
 
  			if ($conn->Insert("tarefas", $values))
- 				echo "Dados inseridos.";
+      {
+        $retorno->id_status  = 1;
+        $retorno->ds_retorno = "Dados inseridos.";
+      }
  			else
- 				echo "Erro ao inserir os dados." . $conn->GetTextualError();
+ 			{
+        $retorno->id_status  = 0;
+        $retorno->ds_retorno = "Erro ao inserir os dados.";
+        $retorno->ds_log     = $conn->GetTextualError();
+      }
+
+      return json_encode($retorno);
     }
 
     function atualizarTarefa($parametros)
@@ -63,9 +117,18 @@
 		                  "id_finalizada" => $id_finalizada);
 
 			if ($conn->Update("tarefas", $values, $where))
-				echo "Dados alterados.";
-			else
-				echo "Erro ao alterar os dados." . $conn->GetTextualError();
+      {
+        $retorno->id_status  = 1;
+        $retorno->ds_retorno = "Dados alterados.";
+      }
+ 			else
+ 			{
+        $retorno->id_status  = 0;
+        $retorno->ds_retorno = "Erro ao alterar os dados.";
+        $retorno->ds_log     = $conn->GetTextualError();
+      }
+
+      return json_encode($retorno);
     }
 
     function excluirTarefa($parametros)
@@ -76,9 +139,18 @@
 
       $where = array("cd_tarefa" => $cd_tarefa);
 			if ($conn->Delete("tarefas", $where))
-				echo "Tarefa excluida.";
-			else
-				echo "Erro ao excluir a tarefa." . $conn->GetTextualError();
+      {
+        $retorno->id_status  = 1;
+        $retorno->ds_retorno = "Tarefa excluida.";
+      }
+ 			else
+ 			{
+        $retorno->id_status  = 0;
+        $retorno->ds_retorno = "Erro ao excluir a tarefa.";
+        $retorno->ds_log     = $conn->GetTextualError();
+      }
+
+      return json_encode($retorno);
     }
   }
 

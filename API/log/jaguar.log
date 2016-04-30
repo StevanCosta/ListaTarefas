@@ -130,3 +130,41 @@
 ^2016-04-27 03:20:37^DELETE FROM tarefas WHERE cd_tarefa = '26' ^2^api.php^ListaTarefas 
 ^2016-04-27 03:20:55^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Tarefa 2  - Inserida Novamente', '0') ^0^api.php^ListaTarefas 
 ^2016-04-27 03:21:05^UPDATE tarefas SET ds_tarefa = 'Tarefa 2  - Editado Novamente', id_finalizada = '0' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 00:35:19^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '0' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 00:54:28^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Outra coisa', '0') ^0^api.php^ListaTarefas 
+^2016-04-29 00:54:37^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('Nova Coisa tarefa', '0') ^0^api.php^ListaTarefas 
+^2016-04-29 01:27:51^INSERT INTO tarefas (ds_tarefa, id_finalizada) VALUES ('teste', '0') ^0^api.php^ListaTarefas 
+^2016-04-29 01:31:00^UPDATE tarefas SET ds_tarefa = 'Nova Coisa tarefa - Editar', id_finalizada = '0' WHERE cd_tarefa = '34' ^1^api.php^ListaTarefas 
+^2016-04-29 01:31:34^UPDATE tarefas SET ds_tarefa = 'Nova Coisa tarefa - Editar', id_finalizada = '0' WHERE cd_tarefa = '34' ^1^api.php^ListaTarefas 
+^2016-04-29 01:31:37^DELETE FROM tarefas WHERE cd_tarefa = '34' ^2^api.php^ListaTarefas 
+^2016-04-29 01:34:25^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:34:35^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:35:59^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = NULL WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:37:22^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:37:29^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '1' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 01:37:35^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:38:05^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:38:09^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:38:11^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:01^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:04^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:05^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:20^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:22^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '0' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:25^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '1' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:27^UPDATE tarefas SET ds_tarefa = 'Tarefa 3', id_finalizada = '1' WHERE cd_tarefa = '27' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:28^UPDATE tarefas SET ds_tarefa = 'Tarefa 5', id_finalizada = '1' WHERE cd_tarefa = '29' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:29^UPDATE tarefas SET ds_tarefa = 'Tarefa 6', id_finalizada = '1' WHERE cd_tarefa = '30' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:34^UPDATE tarefas SET ds_tarefa = 'Tarefa 7', id_finalizada = '1' WHERE cd_tarefa = '31' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:36^UPDATE tarefas SET ds_tarefa = 'teste', id_finalizada = '1' WHERE cd_tarefa = '35' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:57^UPDATE tarefas SET ds_tarefa = 'Tarefa 2', id_finalizada = '0' WHERE cd_tarefa = '32' ^1^api.php^ListaTarefas 
+^2016-04-29 01:39:59^UPDATE tarefas SET ds_tarefa = 'Tarefa 3', id_finalizada = '0' WHERE cd_tarefa = '27' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:15^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '0' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:19^UPDATE tarefas SET ds_tarefa = 'Tarefa 5', id_finalizada = '0' WHERE cd_tarefa = '29' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:24^UPDATE tarefas SET ds_tarefa = 'teste', id_finalizada = '0' WHERE cd_tarefa = '35' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:26^UPDATE tarefas SET ds_tarefa = 'Tarefa 7', id_finalizada = '0' WHERE cd_tarefa = '31' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:27^UPDATE tarefas SET ds_tarefa = 'Tarefa 6', id_finalizada = '0' WHERE cd_tarefa = '30' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:30^UPDATE tarefas SET ds_tarefa = 'teste', id_finalizada = '1' WHERE cd_tarefa = '35' ^1^api.php^ListaTarefas 
+^2016-04-29 01:45:35^DELETE FROM tarefas WHERE cd_tarefa = '35' ^2^api.php^ListaTarefas 
+^2016-04-30 16:03:13^UPDATE tarefas SET ds_tarefa = 'Outra coisa', id_finalizada = '1' WHERE cd_tarefa = '33' ^1^api.php^ListaTarefas 
+^2016-04-30 16:03:22^UPDATE tarefas SET ds_tarefa = 'Tarefa 5', id_finalizada = '1' WHERE cd_tarefa = '29' ^1^api.php^ListaTarefas 
